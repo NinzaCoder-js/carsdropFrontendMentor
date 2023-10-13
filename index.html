@@ -23,6 +23,7 @@
     }
     .hero {
       display: flex;
+      justify-content: center;
       padding-top: 8%;
     }
     .box {
@@ -70,6 +71,32 @@
       max-width: 905px;
       margin: 0 auto;
   
+    }
+
+    @media (max-width:480px) {
+      .container {
+      max-width: 350px;
+    }
+
+    .hero {
+      flex-wrap: wrap;
+      padding-top: 5%;
+      flex-direction: column;
+    }
+
+    #sedan {
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    #luxury {
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 00px;
+    }
+
+
     }
 
 
